@@ -9,7 +9,7 @@ on:
     - cron: '0 3 * * *'
   push:
     branches: [ main, master ]
-    paths: [ '.github/workflows/dark-dimmed.yml' ]
+    paths: [ '.github/workflows/main.yml' ]
   workflow_dispatch:
 
 jobs:
